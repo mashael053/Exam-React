@@ -9,7 +9,7 @@ function SignUp() {
     const navigator = useNavigate()
 
     const handelSigup = ()=>{
-        axios.post("'https://fakestoreapi.com/users'" , {
+        axios.post('https://fakestoreapi.com/users' , {
             name:name, 
             Password:Password, 
             email:email

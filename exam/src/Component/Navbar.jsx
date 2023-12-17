@@ -25,7 +25,7 @@ function Navbar() {
 
 <div className='flex'>
 <button className='text-black text-center bg-[#ffded6ff] w-10 h-10 mt-3'><IoSearch/></button>
-<input type="text-black" className='mt-3 w-[30vw]  ' placeholder='Search Amazon'/>
+<input type="text-black" className='mt-3 w-[30vw]'  placeholder='Search Amazon'/>
 </div>
 
 <div className='mt-3 mr-3'>

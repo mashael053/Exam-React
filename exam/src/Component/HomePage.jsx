@@ -64,15 +64,13 @@ function HomePage() {
                     <br/>
                     <p className=' font-serif'>{item.title}</p>
                     <p className='font-bold'>{item.price} SR</p>
-                    <Link to="/Moredetailes">
+
+                    <Link to={`/Moredetailes/${item.id}`}>
                     <button className='bg-[#ccac54ff] font-sans mb-3 p-1 rounded-md'>More Details</button>
                     </Link>
                 </div>
                     </div>
 </div>
-
-
-
 
             ))}
     

@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
     
         const handelLogin = ()=>{
             
-            axios.get("'https://fakestoreapi.com/users'")
+            axios.get("https://fakestoreapi.com/users")
             .then((res)=>{
                 console.log(res.data);
                 setData(res.data)
